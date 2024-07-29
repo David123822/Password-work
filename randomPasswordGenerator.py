@@ -22,7 +22,7 @@ def hash_pass(password):
 #choose the lenght
 lenght = int(input(Fore.GREEN + """Enter the number of passwords to generate: """ + Fore.RESET))
 
-for _ in tqdm(range(lenght), desc=""):
+for _ in tqdm(range(lenght), desc="Generating random passwords"):
     word = generate_password(49)
     encoded = hash_pass(word)
 
