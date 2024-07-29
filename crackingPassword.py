@@ -27,4 +27,6 @@ for line in file:
 
 #cracking the password
 result = password_cracking(encode, commoc_pass)
-print(f"The random hash was: {encode} and the password is: {result}")
+
+print(f"The hash was: {encode}")
+print(f"Tthe password is: {result}")
