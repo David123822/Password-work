@@ -19,4 +19,3 @@ Hash Selection and Verification:
 Select a random hash from a list.
 Verify the correct password by comparing hashes.
 
-Feel free to explore the code and customize it to fit your needs!
